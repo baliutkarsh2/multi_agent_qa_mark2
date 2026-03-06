@@ -1,0 +1,150 @@
+{
+  "image_name": "demo1.png",
+  "image_path": "test_aitw_videos\\demo1.png",
+  "task_description": "\"Search for the current weather in Rio de Janeiro on Google.\"",
+  "analysis_timestamp": "2025-08-22T19:38:22.526919",
+  "analysis_status": "success",
+  "execution_status": "success",
+  "execution_timestamp": "2025-08-22T19:40:53.103092",
+  "episode_id": "task_demo1",
+  "evaluation": {
+    "accuracy_score": 0.76,
+    "robustness_score": 0.8999999999999999,
+    "generalization_score": 0.6692800000000001,
+    "action_similarity": 1.0,
+    "task_completion_rate": 1.0,
+    "average_duration": 45.2,
+    "planned_steps": [
+      {
+        "step_id": 1,
+        "action": "tap",
+        "resource_id": "com.google.android.apps.nexuslauncher:id/search_container_hotseat",
+        "text": "Google search",
+        "rationale": "To initiate a search for \"search for the current weather in rio de janeiro on google.\".",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      },
+      {
+        "step_id": 2,
+        "action": "tap",
+        "resource_id": "com.google.android.apps.nexuslauncher:id/input",
+        "text": "Search web and more",
+        "rationale": "To access the input field for typing the search query \"search for the current weather in rio de janeiro on google.\".",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      },
+      {
+        "step_id": 3,
+        "action": "type",
+        "resource_id": "com.google.android.apps.nexuslauncher:id/input",
+        "text": "search for the current weather in rio de janeiro on google.",
+        "input_text": "search for the current weather in rio de janeiro on google.",
+        "rationale": "To enter the search query \"search for the current weather in rio de janeiro on google.\" into the input field.",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      },
+      {
+        "step_id": 4,
+        "action": "press_key",
+        "key": "enter",
+        "rationale": "To submit the search query \"search for the current weather in rio de janeiro on google.\" on Google.",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      },
+      {
+        "step_id": 5,
+        "action": "completion",
+        "text": "Task completed",
+        "rationale": "Search for \"search for the current weather in rio de janeiro on google.\" completed successfully.",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      }
+    ],
+    "executed_steps": [
+      {
+        "step_id": 1,
+        "action": "tap",
+        "resource_id": "com.google.android.apps.nexuslauncher:id/search_container_hotseat",
+        "text": "Google search",
+        "rationale": "Tapping the Google search bar to initiate a search for \"search for the current weather in rio de janeiro on google.\".",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      },
+      {
+        "step_id": 2,
+        "action": "tap",
+        "resource_id": "com.google.android.apps.nexuslauncher:id/input",
+        "text": "Search web and more",
+        "rationale": "Tapping the input field to enter the search term \"search for the current weather in rio de janeiro on google.\".",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      },
+      {
+        "step_id": 3,
+        "action": "type",
+        "resource_id": "com.google.android.apps.nexuslauncher:id/input",
+        "text": "search for the current weather in rio de janeiro on google.",
+        "input_text": "search for the current weather in rio de janeiro on google.",
+        "rationale": "Typing the search term \"search for the current weather in rio de janeiro on google.\" into the search input field.",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      },
+      {
+        "step_id": 4,
+        "action": "press_key",
+        "key": "enter",
+        "rationale": "Submitting the search for \"search for the current weather in rio de janeiro on google.\".",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      },
+      {
+        "step_id": 5,
+        "action": "completion",
+        "text": "Task completed",
+        "rationale": "Search for \"search for the current weather in rio de janeiro on google.\" completed successfully.",
+        "timestamp": "2025-08-22T19:40:53.099642"
+      }
+    ],
+    "step_accuracy_scores": [
+      0.8,
+      0.8,
+      1.0,
+      0.4,
+      0.8
+    ],
+    "overall_accuracy": 0.76,
+    "evaluation_timestamp": "2025-08-22T19:40:53.102095"
+  },
+  "planned_steps": [
+    {
+      "step_id": 1,
+      "action": "tap",
+      "resource_id": "com.google.android.apps.nexuslauncher:id/search_container_hotseat",
+      "text": "Google search",
+      "rationale": "To initiate a search for \"search for the current weather in rio de janeiro on google.\".",
+      "timestamp": "2025-08-22T19:40:53.099642"
+    },
+    {
+      "step_id": 2,
+      "action": "tap",
+      "resource_id": "com.google.android.apps.nexuslauncher:id/input",
+      "text": "Search web and more",
+      "rationale": "To access the input field for typing the search query \"search for the current weather in rio de janeiro on google.\".",
+      "timestamp": "2025-08-22T19:40:53.099642"
+    },
+    {
+      "step_id": 3,
+      "action": "type",
+      "resource_id": "com.google.android.apps.nexuslauncher:id/input",
+      "text": "search for the current weather in rio de janeiro on google.",
+      "input_text": "search for the current weather in rio de janeiro on google.",
+      "rationale": "To enter the search query \"search for the current weather in rio de janeiro on google.\" into the input field.",
+      "timestamp": "2025-08-22T19:40:53.099642"
+    },
+    {
+      "step_id": 4,
+      "action": "press_key",
+      "key": "enter",
+      "rationale": "To submit the search query \"search for the current weather in rio de janeiro on google.\" on Google.",
+      "timestamp": "2025-08-22T19:40:53.099642"
+    },
+    {
+      "step_id": 5,
+      "action": "completion",
+      "text": "Task completed",
+      "rationale": "Search for \"search for the current weather in rio de janeiro on google.\" completed successfully.",
+      "timestamp": "2025-08-22T19:40:53.099642"
+    }
+  ]
+}
